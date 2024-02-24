@@ -2,16 +2,21 @@
 
 //Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-const revInt = ( num ) => {
-    let myrevNum = num.tostring().split(" ").reverse().join("");
+// const revInt = ( num ) => {
+//     let myrevNum = num.toString().split(" ").reverse().join("");
 
-    if(myrevNum.endsWith("-")) {
-        myrevNum = "-" + myrevNum;
-        return parsenInt(myrevNum);
-    }
-    else{
-        return parsenInt(myrevNum);
-    }
-};
+//     if(myrevNum.endsWith("-")) {
+//         myrevNum = "-" + myrevNum;
+//         return ParsenInt(myrevNum);
+//     }
+//     else{
+//         return ParsenInt(myrevNum);
+//     }
+// };
 
-console.log(revInt("123"));
+// console.log(revInt(123));
+
+
+// let num =  1234;
+// let  data = num.toString().split('').reverse().join('');
+// console.log(data);
