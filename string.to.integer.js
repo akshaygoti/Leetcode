@@ -13,5 +13,5 @@
 // console.log(text2);
 
 
-let text0 = parseInt('209 akshay');
-console.log(text0);
+// let text0 = parseInt('209 akshay');
+// console.log(text0);
