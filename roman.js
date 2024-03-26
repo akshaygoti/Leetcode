@@ -23,3 +23,5 @@ const number = function(s){
     }
     return result;
 };
+
+console.log();
