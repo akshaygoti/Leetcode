@@ -24,8 +24,8 @@ const fun=(n)=>
     let number = 0;
     // let counter = 0;
     for (let i = 5; i <= n; i += 5) {
-        let num = i;
-    //   number *= i;
+        let num = i;                                        // 5/9=9zero
+    //   number *= i;                                              
         while(num % 5 == 0){
         num /=5;
         number++;
@@ -49,9 +49,4 @@ function trailing_zeros_factorial(n) {
     return result; // Return the total count of trailing zeros in the factorial of n
 }
 
-// Examples of using the function with different values
-// console.log(trailing_zeros_factorial(8)); // Output: 1 (factorial of 8 has one trailing zero)
-// console.log(trailing_zeros_factorial(9)); // Output: 1 (factorial of 9 has one trailing zero)
 console.log(trailing_zeros_factorial(100)); // Output: 2 (factorial of 10 has two trailing zeros)
-
-
